@@ -1,10 +1,12 @@
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+   
 }
-.container>h1{
-    text-align: center;
-    color: aqua;
-    font-size: 35px;
+ol{
+    /* text-align: center; */
+    color: rgb(106, 47, 255) !important;
+    font-size: 25px;
+    /* justify-content: center; */
+    
+    margin: 10rem 10rem !important;   
 }
