@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Document" content="aaaaaaaa">
+	<link rel="stylesheet" href="">
+	<title>Document</title>
+</head>
+<style>
+	.container {
+		display: flex;
+		flex-direction: column;
+		grid: 10px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	fieldset {
+		width: 640px;
+		padding: 15px;
+	}
+</style>
+
+<body>
+
+	<div class="container">
+		<h1>Dresseur de pokémon</h1>
+		<h3>Les champs marqués d'une * sont obligatoires.</h3>
+
+		<form action="#">
+			<fieldset>
+				<legend>Nouveau dresseur</legend>
+				<p>Nom * <br><input name="A" type="Text" required placeholder="entrer votre nom" /></p> <br>
+				<textarea name="description" cols="30" rows="05">Description</textarea>
+
+				<p>Equipe</p>
+				<p> <input name="C" type="radio" value="Mr" />Rouge <br>
+					<input name="C" type="radio" value="Mr" />Jaune <br>
+					<input name="C" type="radio" value="Mme" />Bleu
+				</p>
+				<label for="start">Anniversaire *</label> <br>
+				<input type="date" name="anniv" value="aaaa-mm-jj" min="2018-01-01" />
+				<p><button>Envoyer</button></p>
+		</form>
+		</fieldset>
+	</div>
+
+</body>
+
+</html>
