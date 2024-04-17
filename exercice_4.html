@@ -44,34 +44,42 @@
             font-size: 30px;
         }
 
-        thead{
+        thead {
             background-color: rgb(228 240 245);
-       }
-       thead th {
-        text-align: start;
-       }
+        }
+
+        thead th {
+            text-align: start;
+        }
 
         th,
         td {
             border: 1px solid rgb(160 160 160);
-            padding: 8px 10px;
+            padding: 5px;
         }
 
         tbody>tr:nth-of-type(even) {
-            background-color: rgb(237 238 242);
+            background-color: rgb(242, 237, 237);
+
         }
 
         th:first-child {
             width: 30%;
+
         }
 
         th:last-child {
             width: 60%;
         }
-        th:last-child> ul {
+
+        th:last-child>ul {
             list-style-type: none;
         }
-        
+
+        img {
+            max-width: 110px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -83,56 +91,103 @@
         </caption>
         <thead>
             <tr>
-                <th colspan="2">
+                <th>
+                    <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="profile">
+                </th>
+                <th>
                     <p>Prénom</p>
                     <p>Nom</p>
                     <p>Adresse</p>
                     <p>Date de Naissance</p>
-                    
                 </th>
             </tr>
         </thead>
         <!-- <th></th> -->
         <tbody>
-            <tr >
-                <th colspan="2"><h2>Formation</h2></th>
-                
+            <tr>
+                <th colspan="2" style="height: 40px !important;">
+                    <h2>Formation</h2>
+                </th>
+
             </tr>
-            <tr >
+            <tr>
                 <th>
                     <ul>
-                        <li>2001 -2002</li>
+                        <li>2001-2002</li>
+                        <li>2000-2001</li>
+                    </ul>
+                </th>
+                <th>
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</li>
+                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum.1</li>
+                    </ul>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" style="height: 40px !important;">
+                    <h2>Expérience professionnelle</h2>
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    <ul>
+                        <li>2001-2002</li>
+                        <li>2000-2001</li>
+                    </ul>
+                </th>
+                <th>
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</li>
+                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum.1</li>
+                    </ul>
+
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" style="height: 40px !important;">
+                    <h2>Compétences</h2>
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    <ul>
+                        <li>2001-2002</li>
+                        <li>2000-2001</li>
+                    </ul>
+                </th>
+                <th>
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</li>
+                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum.1</li>
+                    </ul>
+
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" style="height: 40px !important;">
+                    <h2>Informations complémentaires</h2>
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    <ul>
+                        <li>2001-2002</li>
                         <li>200-2001</li>
                     </ul>
                 </th>
                 <th>
                     <ul>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, fugit.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</li>
                         <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum.1</li>
                     </ul>
-                   
+
                 </th>
             </tr>
-            <tr >
-                <th colspan="2"> <h2>Expérience professionnele</h2></th>
-                
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-            </tr>
+
         </tbody>
     </table>
 </body>
