@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Document" content="aaaaaaaa">
-        <link rel="stylesheet" href="">
-        <title>exercice 3</title>
-        <style>
-            fieldset {
-                display: flex;
-                grid:7px;
-                flex-direction: column;
-                align-items: center;
-            }
-            span{margin-bottom: 3px;}
-        </style>
-    </head>
-    <body>
-        <form action="#">
-			<fieldset>
-				<legend>Inscription</legend>
-				<span><label for="start">votre pseudo :</label> 
-				<input type="text" name="pseudo"  /></span><br>
-				<span><label for="start">Votre mot de passe  :</label> 
-				<input type="password" name="password"  /></span><br>
-				<span><label for="start">Ressaisir votre <br>mot de passe  :</label> 
-				<input type="password" name="password.2"  /></span>
 
-				
-				<p>votre OS préféré : <br>
-                     <input name="os" type="radio" value="Windows XP" checked/> <label for="xp">Windows XP</label> <br>
-					<input name="os" type="radio" value="Windows Vista" /><label for="Windows Vista">Windows Vista</label> <br>
-					<input name="os" type="radio" value="Mac OS X " /><label for="Mac OS X ">Mac OS X </label><br>
-					<input name="os" type="radio" value="Linux" /><label for="Linux">Linux</label> <br>
-					<input name="os" type="radio" value="Autre" /><label for="Autre">Autre</label>
-				</p>
-				
-				<p><button type="submit">S'incrire</button></p>
-            </fieldset>
-		</form>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Document" content="aaaaaaaa">
+    <link rel="stylesheet" href="">
+    <title>exercice 3</title>
+    <style>
+        fieldset {
+            display: flex;
+            grid: 7px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        span {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Inscription</legend>
+            <span><label for="start">votre pseudo :</label>
+                <input type="text" name="pseudo" /></span><br>
+            <span><label for="start">Votre mot de passe :</label>
+                <input type="password" name="password" /></span><br>
+            <span><label for="start">Ressaisir votre mot de passe :</label>
+                <input type="password" name="password.2" /></span>
+
+
+            <p><span>votre OS préféré :</span> <br>
+                <input name="os" type="radio" value="Windows XP" checked /> <label for="xp">Windows XP</label> <br>
+                <input name="os" type="radio" value="Windows Vista" /><label for="Windows Vista">Windows Vista</label>
+                <br>
+                <input name="os" type="radio" value="Mac OS X " /><label for="Mac OS X ">Mac OS X </label><br>
+                <input name="os" type="radio" value="Linux" /><label for="Linux">Linux</label> <br>
+                <input name="os" type="radio" value="Autre" /><label for="Autre">Autre</label>
+            </p>
+            <p><span>Vous possédez :</span> <br>
+                <input name="hardware" type="checkbox" value="tour" checked /> <label for="xp">un ordinateur de
+                    bureau</label> <br>
+                <input name="hardware" type="checkbox" value="portable" /><label for="Windows Vista">un portable</label>
+                <br>
+                <input name="hardware" type="checkbox" value="Mac OS X " /><label for="netbook ">un netbook </label><br>
+                <input name="hardware" type="checkbox" value="tablette" /><label for="Linux">une tablette (Pad)</label>
+                <br>
+            </p>
+            <p>
+                <label>Votre profession : <br>
+                    <select name="profession" multiple size="5">
+                        <optgroup label="Profession">
+                            <option value="Chômeur">Chômeur</option>
+                            <option value="Etudiant">Etudiant</option>
+                            <option value="Fonctionnaire" >Fonctionnaire</option>
+                            <option value="Privé" >Privé</option>
+                            <option value="Retraité" >Retraité</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </p>
+
+            <p><button type="submit">S'incrire</button></p>
+        </fieldset>
+    </form>
+</body>
+
 </html>

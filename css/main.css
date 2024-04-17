@@ -1,6 +1,6 @@
-.container{
+body{
  
-   
+ 
 }
 ol{
     /* text-align: center; */
@@ -8,5 +8,5 @@ ol{
     font-size: 25px;
     /* justify-content: center; */
     
-    margin: 10rem 10rem !important;   
+    margin: 2rem !important;   
 }
