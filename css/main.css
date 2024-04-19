@@ -1,12 +1,5 @@
-body{
- 
- 
-}
-ol{
-    /* text-align: center; */
-    color: rgb(106, 47, 255) !important;
-    font-size: 25px;
-    /* justify-content: center; */
-    
-    margin: 2rem !important;   
-}
+
+
+    section p{font-size: 14px; color: blue;} 
+   .maclasse{color: green;}
+   #superid{color: red;}
